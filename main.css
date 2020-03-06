@@ -29,6 +29,7 @@ body {
 
 .fontos-adatok {
   float: right;
+  position: relative;
 }
 
 h1,
