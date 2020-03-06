@@ -71,14 +71,13 @@ li {
   .profilkép {
     width: 15%;
     height: 15%;
-    border-radius: 80%;
     margin-left: 5%;
-    margin-top: 4%;
+    margin-top: 2%;
   }
 
   .fontos-adatok {
       margin-right: 7%;
-      margin-top: 4%;
+      margin-top: 2%;
   }
 }
 
@@ -90,6 +89,7 @@ li {
     height: 20%;
     border-radius: 80%;
     margin-left: 5%;
+    margin-top: 2%;
   }
 
   .névjegy-kártya {
@@ -99,7 +99,7 @@ li {
 
   .fontos-adatok {
     margin-right: 10%;
-    margin-top: 8%;
+    margin-top: 5%;
   }
 }
 
