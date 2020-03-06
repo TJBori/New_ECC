@@ -26,7 +26,6 @@ body {
   display: block;
   background-color: rgba(137, 43, 226, 0.288);
 }
-
 .profilkép {
   border: solid lightblue 0.5px;
 }
@@ -94,7 +93,7 @@ li {
   }
 
   .névjegy-kártya {
-    max-width: 400px;
+    width: 400px;
     margin: auto;
   }
 
@@ -122,5 +121,32 @@ li {
   .fontos-adatok {
     margin-right: 10%;
     margin-top: 8%;
+  }
+
+  .név {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .foglalkozás {
+    margin-bottom: 10px;
+  }
+
+  .lakhely {
+    margin-bottom: 10px;
+  }
+
+  .emailcím {
+    margin-bottom: 5px;
+  }
+
+  .fejléc {
+    margin-bottom: 5px;
+    text-decoration: underline;
+    text-decoration-color: rgb(194, 10, 240);
+  }
+  .codepen-logo {
+    margin-left: 5px;
+    margin-right: 5px;
   }
 }
