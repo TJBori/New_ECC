@@ -71,6 +71,7 @@ li {
   .profilkép {
     width: 15%;
     height: 15%;
+    border-radius: 80%;
     margin-left: 5%;
     margin-top: 2%;
   }
