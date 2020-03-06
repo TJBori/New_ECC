@@ -1,103 +1,119 @@
 /* CSS reset */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 100%;
-  }
-  
-  .névjegy-kártya {
-      max-height: calc(100vh - 10px);
-      max-width: calc(100vw - 10px);
-      background-color: rgba(137, 43, 226, 0.288);
-  }
-  
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(206, 235, 253, .5);
-      height: 100vh;
-      width: 100vw;
-  }
-  
-  .profilkép {
-      border: solid lightblue .5px;
-  }
-  
-  .fontos-adatok {
-      float: right;
-  }
-  
-  h1, p {
-      margin-bottom: 5px;
-  }
-  
-  .lakhely {
-      margin-top: 7px;
-  }
-  
-  li {
-      list-style-type: none;
-      display: inline;
-  }
-  
-  .codepen-logo {
-      width: 5%;;
-      height: 5%;
-  }
-  
-  .github-logo {
-      width: 5%;
-      height: 5%;
-  }
-  
-  .gmail-logo {
-      width: 5%;
-      height: 5%;
-  }
-  
-          /* For Mobile*/
-          
-  @media only screen and (max-width: 600px) {
-      .profilkép {
-          width: 15%;
-          height: 15%;
-          border-radius: 80%;
-      }
-  }
-          
-          /* For tablet */
-          
-  @media only screen and (min-width: 600px) {
-      .profilkép {
-          width: 20%;
-          height: 20%;
-          border-radius: 80%;
-      }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
 
-      .névjegy-kártya {
-          max-width: 400px;
-          margin: auto;
-      }
+.névjegy-kártya {
+  max-height: calc(100vh - 20px);
+  max-width: calc(100vw - 20px);
+  display: block;
+  background-color: rgba(137, 43, 226, 0.288);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(206, 235, 253, 0.5);
+  height: 100vh;
+  width: 100vw;
+}
+
+.profilkép {
+  border: solid lightblue 0.5px;
+}
+
+.fontos-adatok {
+  float: right;
+}
+
+h1,
+p {
+  margin-bottom: 5px;
+}
+
+.lakhely {
+  margin-top: 7px;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+.codepen-logo {
+  width: 5%;
+  height: 5%;
+}
+
+.github-logo {
+  width: 5%;
+  height: 5%;
+}
+
+.gmail-logo {
+  width: 5%;
+  height: 5%;
+}
+
+/* For Mobile*/
+
+@media only screen and (max-width: 600px) {
+  .profilkép {
+    width: 15%;
+    height: 15%;
+    border-radius: 80%;
+    margin-left: 5%;
   }
-          
-          /* For desktop */
-          
-  @media only screen and (min-width: 992px) {
-      .profilkép {
-          width: 25%;
-          height: 25%;
-          border-radius: 80%;
-      }
-  
-      .névjegy-kártya {
-          width: 600px;
-          margin: auto;
-      }
-  
-      .fontos-adatok {
-          margin-top: -100px;
-      }
+
+  .fontos-adatok {
+      margin-right: 10%;
+      margin-top: 8%;
   }
+}
+
+/* For tablet */
+
+@media only screen and (min-width: 600px) {
+  .profilkép {
+    width: 20%;
+    height: 20%;
+    border-radius: 80%;
+    margin-left: 5%;
+  }
+
+  .névjegy-kártya {
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .fontos-adatok {
+    margin-right: 10%;
+    margin-top: 8%;
+  }
+}
+
+/* For desktop */
+
+@media only screen and (min-width: 992px) {
+  .profilkép {
+    width: 25%;
+    height: 25%;
+    border-radius: 80%;
+    margin-left: 5%;
+  }
+
+  .névjegy-kártya {
+    width: 700px;
+    margin: auto;
+  }
+
+  .fontos-adatok {
+    margin-right: 10%;
+    margin-top: 8%;
+  }
+}
